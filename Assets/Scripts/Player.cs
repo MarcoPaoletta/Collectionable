@@ -13,7 +13,6 @@ public class Player : MonoBehaviour
     private float horizontal;
     private float vertical;
 
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

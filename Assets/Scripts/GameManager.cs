@@ -6,11 +6,6 @@ public class GameManager : MonoBehaviour
 {
     public GameObject coinPrefab;
 
-    void Start()
-    {
-        InstantiateCoins(20);
-    }
-
     void InstantiateCoins(int amount)
     {
         for (int i = 0; i < amount; i++)
@@ -20,6 +15,11 @@ public class GameManager : MonoBehaviour
             // not change the rotation
             GameObject coin = Instantiate(coinPrefab, new Vector3(Random.Range(-8.5f, 8.5f), Random.Range(-4.5f, 4.5f)), Quaternion.identity);
         }
+    }
+
+    void Start()
+    {
+        InstantiateCoins(20);
     }
 
 }
