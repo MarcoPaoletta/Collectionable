@@ -147,7 +147,7 @@
 
 ---
 
-# Script [GameManager](https://github.com/MarcoPaoletta/Collectionable/blob/main/Assets/Scripts/GameManager.cs)
+# Script [GameManager.cs](https://github.com/MarcoPaoletta/Collectionable/blob/main/Assets/Scripts/GameManager.cs)
 
 ### Variables
 ```c#
